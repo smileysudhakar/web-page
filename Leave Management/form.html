@@ -1,0 +1,162 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <title>leave request form</title></head>
+    <style>
+        ::placeholder {
+  font-style:italic;
+}
+        *{
+            margin:0;
+            padding:0;
+            font-family: 'poppins',sans-serif;;
+        }
+        #image{
+            position:absolute;
+            margin-top: 6%;
+            margin-left: 83%;
+            left:-10%;
+        }
+        .header{
+        height: 900px;
+        width: 100%;
+        background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/mmcas5.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        }
+        .deck{
+        position:absolute;
+        margin-top:15.5%;
+        margin-left:63%;
+        list-style:none;
+        color:white;
+        }
+        ul {
+        list-style-type: none;
+        }
+        #char{
+            width:200px;
+            border:none;
+            background:transparent;
+            padding:10px;
+            margin-bottom:15px;
+            color:none;
+        }
+        .card{
+                padding:80px 80px 30px 50px;
+                border-radius:10px;
+                position:absolute;
+                margin-top: 10%;
+                margin-left:60%;
+                padding:90px 60px 50px 180px;
+                border-radius:30px;
+            }
+            #name{
+                width:200px;
+                border:none;
+                background:transparent;
+                border-bottom:1px solid rgb(243, 243, 244);
+                padding:10px;
+                margin-bottom:15px;
+                color:white;
+            }
+            #class{
+                width:200px;
+                border:none;
+                background:transparent;
+                border-bottom:1px solid rgb(228, 238, 243);
+                padding:10px;
+                margin-bottom:15px;
+                color:white;
+            }
+            #reason{
+                width:200px;
+                border:none;
+                background:transparent;
+                border-bottom:1px solid rgb(231, 237, 239);
+                padding:10px;
+                margin-bottom:15px;
+                color:white;
+            }
+            #date1{
+                width:200px;
+                border:none;
+                background:transparent;
+                border-bottom:1px solid rgb(241, 246, 249);
+                padding:10px;
+                margin-bottom:15px;
+                color:white;
+            }
+            #date2{
+                width:200px;
+                border:none;
+                background:transparent;
+                border-bottom:1px solid rgb(243, 247, 249);
+                padding:10px;
+                margin-bottom:15px;
+                color:rgb(248, 245, 245);
+            }
+            .button{
+                border-radius:20px;
+                padding:10px 20px;
+                background:white;
+                border:none;
+                outline:none;
+                margin-top:20px;
+            }
+            .button:hover{
+                background-color: aqua;
+            }
+            .form-box
+            {
+                position:absolute;
+                margin-top:5%;
+                margin-left:58%;
+                width:480px;
+                height:600px;
+                background:#1c1c1c;
+                border-radius: 18px;
+                opacity: 40%;
+            }
+            .form-value
+            {
+                position:absolute;
+                inset:4px;
+                background:black;
+                padding:50px 40px;
+                border-radius:18px;
+            }
+    </style>
+    <body>
+        <section class="header">
+            <img src="images/user5.png" height="110px" id="image"></a>
+            <div class="form-box">
+                <div class="form-value">
+                    <form action=""></form>
+                </div>
+                </div>
+            <div class="card">
+                <form action="mailto:333sudhakarmass@gmail.com" method="post" enctype="text/plain">
+                <input type="text" placeholder="" id="name"><br>
+                <input type="text" placeholder="" id="name"><br>
+                <input type="text" placeholder="" id="class"><br>
+                <input type="text" placeholder="" id="reason"><br>
+                <input type="date" placeholder="start date" id="date1"><br>
+                <input type="date" placeholder="end date" id="date2"><br> 
+                <button class="button" sendEmail()>SUBMIT</button>
+            </div>
+        </form>
+            <div class="deck">
+                <ul>
+                <li style="padding-top: 30px">NAME</li>
+                <li style="padding-top: 30px">ROLL NO</li>
+                <li style="padding-top: 30px">CLASS</li>
+                <li style="padding-top: 30px">REASON</li>
+                <li style="padding-top: 30px">START DATE</li>
+                <li style="padding-top: 30px">END DATE</li>
+                </ul>
+            </div>
+            </section>
+    </body>
+</html>
